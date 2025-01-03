@@ -1,8 +1,11 @@
+import * as Components from './components';
+import RegisterPage from './components/Templates/Pages/RegisterPage';
+
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline border bg-black">
-      Hello world!
-    </h1>
+    <>
+      <RegisterPage />
+    </>
   )
 }
 
