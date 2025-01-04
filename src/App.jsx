@@ -1,10 +1,15 @@
 import * as Components from './components';
-import RegisterPage from './components/Templates/Pages/RegisterPage';
 
 function App() {
+
   return (
     <>
-      <RegisterPage />
+      <div className="">
+        <Components.Header />
+        <div className="mt-10">
+        <Components.CreditCardRegisterPage />
+        </div>
+      </div>
     </>
   )
 }
