@@ -5,14 +5,14 @@ function CreditCardRegistrationForm() {
   return (
     <>
       <form action="submit" method='post'>
-      <div className="flex flex-col justify-center align-middle">
+      <div className="flex flex-col">
         <div className="flex justify-center">
           <span className="text-3xl text-gray-700 font-sans">Payment Details</span>
         </div>
         <div>
           <Components.TextInput label="CARDHOLDER NAME" id="cardholderName" placeholder="Type your name here" type="text" required />
           <Components.TextInput label="CREDIT CARD NUMBER" id="cardNumber" placeholder="1234 5678 9012 3456" type="number" required maxLength="19" />
-          <div className="flex gap-6">
+          <div className="flex">
             <div className="flex flex-col text-gray-600 my-2">
               <label>EXPIRY DATE (MM/YY)</label>
               <div className="flex gap-2 px-2 py-1">
